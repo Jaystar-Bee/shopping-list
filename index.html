@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Shopping List || Name</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <center>
+          <h1 class="header__text">My Shopping List</h1>
+        </center>
+      </header>
+
+      <!-- form starts -->
+      <div class="form">
+        <form>
+          <div class="form__name">
+            <label for="name">Name</label>
+            <input type="text" placeholder="product name" id="name" />
+          </div>
+          <div class="form__price">
+            <label for="price">Price</label>
+            <input type="number" placeholder="estimate price" id="price" />
+          </div>
+
+          <div class="form_button">
+            <button type="submit" class="button">add Shop</button>
+          </div>
+        </form>
+      </div>
+      <!-- form closed -->
+      <div class="message"></div>
+
+      <!-- List starts -->
+      <div class="shop__list-cover"></div>
+
+      <!-- list ends -->
+
+      <div class="total">
+        <p>
+          <big class="total__text">Total Price</big>
+          <span class="total__price">&#8358; <b></b></span>
+        </p>
+      </div>
+    </div>
+
+    <!-- Scripts  -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
